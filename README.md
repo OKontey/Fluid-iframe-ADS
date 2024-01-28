@@ -34,14 +34,14 @@ The width is recalculated relative to the parent block with the class <code>.fra
 - add code:
 ```js
 <script type="text/javascript">
-let iframeResize = ".frameBoard";
-$(function() {
-    makeFluid(iframeResize);
-});
-$(window).resize(function(){
-   makeFluid(iframeResize);
-});
-</script>   
+    let iframeResize = ".frameBoard";
+    $(function() {
+        makeFluid(iframeResize);
+    });
+    $(window).resize(function(){
+        makeFluid(iframeResize);
+    });
+</script>  
 ```
 > [!NOTE]
 > the specified class in quotes <code>.frameBoard</code> can be changed to another one of yours. However, then you should specify the new class in the html layout. This class is hung on an <code>iframe</code>
