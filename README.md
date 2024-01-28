@@ -30,22 +30,22 @@ The width is recalculated relative to the parent block with the class <code>.fra
 ### Initialization
 - connect jquery <code><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script></code>
 - connect <code>fluid_frame_ad.js</code> file <code><script src="/js/fluid_frame_ad.js"></script></code>
+- connect css file ```<link rel="stylesheet" type="text/css" href="/css/fluid_frame.css">```
 - add code:
 ```js
-    <script type="text/javascript">
-        let iframeResize = ".frameBoard";
-        $(function() {
-            makeFluid(iframeResize);
-        });
-        $(window).resize(function(){
-	        makeFluid(iframeResize);
-        });
-    </script> 
-      
+<script type="text/javascript">
+let iframeResize = ".frameBoard";
+$(function() {
+    makeFluid(iframeResize);
+});
+$(window).resize(function(){
+   makeFluid(iframeResize);
+});
+</script>   
 ```
 > [!NOTE]
 > the specified class in quotes <code>.frameBoard</code> can be changed to another one of yours. However, then you should specify the new class in the html layout. This class is hung on an <code>iframe</code>
 
-> [!NOTE]
-> 🤷‍♂️ perhaps in the future I will expand support for banner types and make the code better
+
+🤷‍♂️ perhaps in the future I will expand support for banner types and make the code better
 
