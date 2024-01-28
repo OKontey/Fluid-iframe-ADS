@@ -15,21 +15,36 @@
 ### Uses:
 
 - **CDN** jquery 3.21
-- **CDN** bootstrap
-
+- **CDN** bootstrap <code>[not necessary]</code>
 
 ## How it work
 <i class="devicon-jquery-plain"></i>
   
 
-<p align="center"><img src="https://github.com/OKontey/Fluid-iframe-ADS/assets/157806715/ca5c3c68-03ae-457b-9eda-a9a8926f7c12" alt="FluidFrameGit"></p>
+<p align="center"><img src="https://github.com/OKontey/Fluid-iframe-ADS/assets/157806715/3e5b3511-15f3-4ec0-8a87-43f3150b6e04" alt="FluidFrameGitSmall"></p>
 
-
-
-
-<p align="center">
-
+<p>
+The width is recalculated relative to the parent block with the class <code>.frameBoard</code> for an iframe with the class <code>.frameblock</code>
 </p>
+
+### Initialization
+- connect jquery <code><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script></code>
+- connect <code>fluid_frame_ad.js</code> file <code><script src="/js/fluid_frame_ad.js"></script></code>
+- add code:
+```js
+    <script type="text/javascript">
+        let iframeResize = ".frameBoard";
+        $(function() {
+            makeFluid(iframeResize);
+        });
+        $(window).resize(function(){
+	        makeFluid(iframeResize);
+        });
+    </script> 
+      
+```
+> [!NOTE]
+> the specified class in quotes <code>frameBoard</code> can be changed to another one of yours. However, then you should specify the new class in the html layout. This class is hung on an <code>iframe</code>
 
 > [!NOTE]
 > 🤷‍♂️ perhaps in the future I will expand support for banner types and make the code better
