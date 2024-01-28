@@ -22,7 +22,7 @@
 <i class="devicon-jquery-plain"></i>
   
 
-   ![FluidFrameGit](https://github.com/OKontey/Fluid-iframe-ADS/assets/157806715/ca5c3c68-03ae-457b-9eda-a9a8926f7c12)
+<p align="center"><img src="https://github.com/OKontey/Fluid-iframe-ADS/assets/157806715/ca5c3c68-03ae-457b-9eda-a9a8926f7c12" alt="FluidFrameGit"></p>
 
 
 
