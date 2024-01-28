@@ -24,7 +24,7 @@
 <p align="center"><img src="https://github.com/OKontey/Fluid-iframe-ADS/assets/157806715/3e5b3511-15f3-4ec0-8a87-43f3150b6e04" alt="FluidFrameGitSmall"></p>
 
 <p>
-The width is recalculated relative to the parent block with the class <code>.frameBoard</code> for an iframe with the class <code>.frameblock</code>
+The width is recalculated relative to the parent block with the class <code>.frameblock</code> for an iframe with the class <code>.frameBoard</code>
 </p>
 
 ### Initialization
@@ -44,7 +44,7 @@ The width is recalculated relative to the parent block with the class <code>.fra
       
 ```
 > [!NOTE]
-> the specified class in quotes <code>frameBoard</code> can be changed to another one of yours. However, then you should specify the new class in the html layout. This class is hung on an <code>iframe</code>
+> the specified class in quotes <code>.frameBoard</code> can be changed to another one of yours. However, then you should specify the new class in the html layout. This class is hung on an <code>iframe</code>
 
 > [!NOTE]
 > 🤷‍♂️ perhaps in the future I will expand support for banner types and make the code better
