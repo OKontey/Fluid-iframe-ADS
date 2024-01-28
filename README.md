@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 <h1 align="center">Fluid-iframe-ADS</h1>
 
-<p align="center">A simple solution for the adaptability of advertising banners on the site. Uses: , </p>
+<p align="center">A simple solution for the adaptability of advertising banners on the site.</p>
 
 
 <div id="badges" align="center">
