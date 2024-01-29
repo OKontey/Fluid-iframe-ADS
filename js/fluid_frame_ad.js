@@ -3,7 +3,6 @@ jQuery makeFluid plugin v0.4.88
 (c) 2018-2024, Rich
 https://t.me/rich_99000000
 */
-//Example of resizing based on the viewport
 //Scale a display ad to the current width of its defined space using the CSS 'transform' property
 	
 let numScale = 1;
