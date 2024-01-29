@@ -28,13 +28,21 @@ No additional connection is required on the page. We can see an example of usage
 ### Initialization
 - connect jquery <code><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script></code>
 - connect <code>fluid_frame_ad.js</code> file <code><script src="/js/fluid_frame_ad.js"></script></code>
+
 usage example:
 ```html
-<div><iframe src="{YOUR_LINK}"></iframe></div> 
+
+<div>
+    <iframe src="{YOUR_LINK}"></iframe>
+</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="/js/fluid_frame_ad.js"></script>
+
 ```
 > [!NOTE]
 > the specified ```<div>``` block should be used to frame your ```<iframe>``` so that the code counts the width from the parent element
 
+🤷‍♂️ ~~perhaps in the future I will expand support for banner types and make the code better~~
 
-🤷‍♂️ perhaps in the future I will expand support for banner types and make the code better
-
+✅ the code has been updated and the method of its connection, including
