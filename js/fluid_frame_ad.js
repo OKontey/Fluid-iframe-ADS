@@ -1,5 +1,5 @@
 /*
-jQuery makeFluid plugin v0.4.87
+jQuery makeFluid plugin v0.4.88
 (c) 2018-2024, Rich
 https://t.me/rich_99000000
 */
@@ -43,6 +43,7 @@ function makeFluid(){
 		r =  frame/100, p =  parentE/r, finalPercent = parseInt(p*100)/100;
 		return finalPercent;
 	}
+	
 	function stringifyr(val){
 		var scl = JSON.stringify(val);
 		console.log('stringify =>'+scl);
