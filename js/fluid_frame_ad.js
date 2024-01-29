@@ -1,7 +1,7 @@
 /*
- jQuery makeFluid plugin v0.4.86
- (c) 2018-2024, Rich
- https://t.me/rich_99000000
+jQuery makeFluid plugin v0.4.87
+(c) 2018-2024, Rich
+https://t.me/rich_99000000
 */
 //Example of resizing based on the viewport
 //Scale a display ad to the current width of its defined space using the CSS 'transform' property
@@ -17,7 +17,7 @@ function makeFluid(){
 				frameParent = $(iframes[i]).closest("div"),
 				parent_w = frameParent.outerWidth();
 
-			if(parent_w < frameWidth){ //console.log('parent_small');
+			if(parent_w < frameWidth){
 				var per_not_100F = Number(calcX(frameWidth,parent_w,));
 				numScale = per_not_100F/100;
 			}else{
@@ -48,8 +48,7 @@ function makeFluid(){
 		console.log('stringify =>'+scl);
 	}
 		
-	function changeCssProperty(el, value){ // as array
-		//console.log("changeCssProperty event; numScale="+value);
+	function changeCssProperty(el, value){
 		if (value){
 			$(el).css({ 'overflow': 'hidden', 'transform-origin': '0px 0px', '-webkit-transform-origin': '0 0','scale':''+value+'' });
 		}
